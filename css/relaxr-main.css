@@ -88,24 +88,17 @@ TOP CONTENT
 
 .hero-content {
 	background: url("../images/header_bg.jpg"); 
+	background-size: cover;
 /*	background-position: center; */
 	width: 100%;
 	max-height: 675px;
-	background-repeat: no-repeat;
+/*	background-repeat: no-repeat;*/
 	text-align: center;
 	padding: 135px 0px 240px 0px;
-	position: relative;
-    z-index: 2;
+/*	position: relative;*/
+/*    z-index: 2;*/
 }
 
-/*.middle {
-	padding-top: 150px;
-}*/
-
-/*.button-content {
-	padding-top: 50px;
-	text-align: center;
-}*/
 
 h1 {
 	color: #fff;
@@ -161,7 +154,7 @@ h2 {
 li {
 	color: #606161;
 	line-height: 1.9em;
-	list-style-type: square;
+	list-style-type: disc;
 	margin-left: 50px;
 	width: 45%;
 }
@@ -181,14 +174,16 @@ PULLQUOTE
 *******************************************/
 
 
-.blockquote {
+.quote {
 	background: url("../images/testimonial_bg.jpg");
+	background-size: cover;
+	height: 20px;
+	padding: 60px 0px 240px 0px;
 /*	background-position: center; 
 	width: 100%;*/
-	height: 235px;
 /*	width: auto;*/
-/*	background-repeat: no-repeat;*/
-}
+/*	background-repeat: no-repeat;
+*/}
 
 /*blockquote {
 	max-width: 430px; 
@@ -266,7 +261,7 @@ footer {
 }
 
 .fa-ul {
-	margin-left: 150px;
+	margin-left: 200px;
 /*	margin-right: 100px;*/
 /*	padding: 0 0 0 110px;*/
 	text-align: center;
@@ -277,6 +272,10 @@ footer {
 	color: white;
 	display: inline-block;
 /*	text-decoration: none;*/
+}
+
+li.fa-li {
+	margin: 0;
 }
 
 a {
